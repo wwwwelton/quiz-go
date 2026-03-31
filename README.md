@@ -17,11 +17,15 @@
 **Follow the steps below**
 ```bash
 # Clone the project and access the folder
-git clone https://github.com/wwwwelton/quiz-go && \
-cd quiz-go
+git clone https://github.com/wwwwelton/quiz-go && cd quiz-go
 
 # Run the game
 go run main.go
+
+# or
+
+# Compile and run the game
+go build && ./quiz-go
 
 # Well done!
 ```
